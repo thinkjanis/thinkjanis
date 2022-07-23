@@ -5,7 +5,7 @@ title: "Contact me"
 
 <h1 class="title is-size-2">{{ page.title }}</h1>
 
-<p class="m-b-1-25">If you wish to contact me, please write me via <a href="mailto:cv@thinkjanis.com">email</a>. <a href="https://www.linkedin.com/in/{{ site.handle }}" target="_blank">
+<p class="m-b-1-25">If you wish to contact me, please write me via <a href="mailto:cv@thinkjanis.com">email</a> <a href="https://www.linkedin.com/in/{{ site.handle }}" target="_blank">
           <span class="icon is-medium">
             <i class="fa fa-lg fa-linkedin"></i>
           </span>

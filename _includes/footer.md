@@ -6,3 +6,7 @@
     </div>
   </div>
 </footer>
+
+<script type="text/javascript">
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>

@@ -10,3 +10,13 @@
 <script type="text/javascript">
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSPNG3FNBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MSPNG3FNBM');
+</script>

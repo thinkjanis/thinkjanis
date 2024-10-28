@@ -27,7 +27,7 @@ layout: default
       <nav class="tabs is-centered">
         <div class="container">
           <ul>
-            <li><a href="/about-me">About me</a></li>
+            <!--<li><a href="/about-me">About me</a></li>-->
             <!--<li><a class="has-text-weight-semibold" href="/">My work</a></li>-->
             <li><a href="/contact-me">Contact me</a></li>
           </ul>

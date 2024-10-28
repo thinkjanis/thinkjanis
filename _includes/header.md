@@ -14,9 +14,9 @@
   </div>
 
   <div class="navbar-menu" id="navMenu">
-    <a class="navbar-item" href="/about-me">
+    <!--<a class="navbar-item" href="/about-me">
       About me
-    </a>
+    </a>-->
 
     <!--<a class="navbar-item" href="/">
       My work

@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Your Name - Personal Card',
-  description: 'A brief description about yourself',
+  title: 'Janis Solks - Infrastructure Engineer',
+  description: 'Results-driven Infrastructure Engineer specializing in IT support, automation, and impactful cloud solutions.',
 }
 
 export default function RootLayout({

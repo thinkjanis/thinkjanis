@@ -1,4 +1,5 @@
 import './globals.css'
+import FaviconLinks from '../components/FaviconLinks'
 
 export const metadata = {
   title: 'Janis Solks - Infrastructure Engineer',
@@ -17,6 +18,7 @@ export default function RootLayout({
           href="https://api.fontshare.com/v2/css?f[]=geist@400,700,600&display=swap"
           rel="stylesheet"
         />
+        <FaviconLinks />
       </head>
       <body className="font-sans">{children}</body>
     </html>

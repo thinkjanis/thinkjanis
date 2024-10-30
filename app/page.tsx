@@ -16,17 +16,17 @@ export default function Home() {
             Passionate about delivering quality IT support and building useful infrastructure solutions.
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com/thinkjanis" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
-              <Github className="w-7 h-7" />
-              <span className="sr-only">GitHub</span>
-            </a>
-            <a href="https://linkedin.com/in/thinkjanis" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
+          <a href="https://linkedin.com/in/thinkjanis" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
               <Linkedin className="w-7 h-7" />
               <span className="sr-only">LinkedIn</span>
             </a>
             <a href="mailto:cv@thinkjanis.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
               <Mail className="w-7 h-7" />
               <span className="sr-only">Email</span>
+            </a>
+            <a href="https://github.com/thinkjanis" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
+              <Github className="w-7 h-7" />
+              <span className="sr-only">GitHub</span>
             </a>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Home() {
@@ -32,7 +31,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Analytics />
     </main>
   )
 }

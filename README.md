@@ -5,7 +5,7 @@ Welcome to my personal website! 🌟 Check it out at [https://thinkjanis.com](ht
 ## Overview
 This site is intended to be my digital contact card, providing quick access to my profile, projects, and ways to connect.
 
-## Technologies Used
+## Tech stack
 - **[Next.js](https://nextjs.org)**: A robust React framework for building user interfaces and server-rendered applications.
 - **[GitHub Pages](https://pages.github.com)**: Used for deploying and hosting the site with reliable, fast, and free web hosting.
 - **[GitHub Actions](https://github.com/features/actions)**: For continuous integration and deployment, ensuring the site is always live with the latest updates.

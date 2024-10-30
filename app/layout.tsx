@@ -1,5 +1,6 @@
 import './globals.css'
 import FaviconLinks from '../components/FaviconLinks'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata = {
   title: 'Janis Solks - Infrastructure Engineer',
@@ -21,6 +22,7 @@ export default function RootLayout({
         <FaviconLinks />
       </head>
       <body className="font-sans">{children}</body>
+      <GoogleAnalytics gaId="G-MSPNG3FNBM" />
     </html>
   )
 }

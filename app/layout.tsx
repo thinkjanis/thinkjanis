@@ -23,7 +23,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans">{children}</body>
       {process.env.APP_ENV === 'production' && (
-        <GoogleAnalytics gaId={process.env.GA_ID} />
+        <GoogleAnalytics gaId={process.env.GA_ID || ''} />
       )}
     </html>
   )

@@ -23,10 +23,10 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
     env:
-      APP_ENV: ${{ vars.APP_ENV }}
       GA_ID: ${{ vars.GA_ID }}
+      APP_ENV: ${{ vars.APP_ENV }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4

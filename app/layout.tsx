@@ -22,7 +22,9 @@ export default function RootLayout({
         <FaviconLinks />
       </head>
       <body className="font-sans">{children}</body>
-      <GoogleAnalytics gaId="G-MSPNG3FNBM" />
+      {process.env.APP_ENV === 'production' && (
+        <GoogleAnalytics gaId={process.env.GA_ID} />
+      )}
     </html>
   )
 }

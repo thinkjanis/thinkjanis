@@ -25,9 +25,3 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
-@layer base {
-  body {
-    font-family: 'Geist', sans-serif;
-  }
-}

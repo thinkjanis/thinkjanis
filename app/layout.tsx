@@ -1,6 +1,9 @@
 import './globals.css'
+import { GeistSans } from 'geist/font/sans'
 import FaviconLinks from '../components/FaviconLinks'
 import { GoogleAnalytics } from '@next/third-parties/google'
+
+const app_font = GeistSans
 
 export const metadata = {
   title: 'Janis Solks - Infrastructure Engineer',
@@ -13,15 +16,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="light">
+    <html lang="en" className={`light ${app_font.className}`}>
       <head>
-        <link
-          href="https://api.fontshare.com/v2/css?f[]=geist@400,700,600&display=swap"
-          rel="stylesheet"
-        />
         <FaviconLinks />
       </head>
-      <body className="font-sans">{children}</body>
+      <body>{children}</body>
       {process.env.APP_ENV === 'production' && (
         <GoogleAnalytics gaId={process.env.GA_ID || ''} />
       )}

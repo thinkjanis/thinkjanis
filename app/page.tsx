@@ -62,7 +62,7 @@ export default function Home() {
       </div>
       <footer className="w-full text-xs text-center text-gray-500 dark:text-gray-400 mt-4">
           Built with <a href="https://v0.dev" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">V0.dev</a> |
-          Automated CI/CD with <a href="https://github.com/features/actions" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">GitHub Actions</a> | <a href="https://github.com/thinkjanis/thinkjanis" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">View Source</a>
+          Automated CI/CD with <a href="https://github.com/features/actions" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">GH Actions</a> | <a href="https://github.com/thinkjanis/thinkjanis" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">View Source</a>
       </footer>
     </main>
   )

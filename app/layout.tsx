@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <head>
         <link
           href="https://api.fontshare.com/v2/css?f[]=geist@400,700,600&display=swap"

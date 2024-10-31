@@ -23,7 +23,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-4 bg-white dark:bg-black">
       <div className="flex-grow flex items-center justify-center w-full">
         <div className="max-w-md w-full bg-white dark:bg-black border border-gray-200 dark:border-gray-800 rounded-lg shadow-lg overflow-hidden">
-          <div className="flex justify-end w-full p-4">
+          <div className="flex justify-end p-4">
             <button
               className="p-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
               onClick={toggleTheme}
@@ -32,7 +32,7 @@ export default function Home() {
               <span className="sr-only">Toggle theme</span>
             </button>
           </div>
-          <div className="p-8">
+          <div className="px-8 pb-8">
             <img 
               src="/images/js.jpeg" 
               alt="Profile Picture" 

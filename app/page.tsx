@@ -38,7 +38,7 @@ export default function Home() {
               alt="Profile Picture" 
               className="w-28 h-28 rounded-full mx-auto mb-4"
             />
-            <h1 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-2">Janis Solks</h1>
+            <h1 className="text-3xl font-bold text-center text-gray-900 dark:text-white">Janis Solks</h1>
             <p className="text-lg text-center text-gray-600 dark:text-gray-400 mb-4">Infrastructure Engineer</p>
             <p className="text-base text-center text-gray-800 dark:text-gray-200 mb-8 max-w-sm mx-auto">
               Passionate about delivering quality IT support and building useful infrastructure solutions.
